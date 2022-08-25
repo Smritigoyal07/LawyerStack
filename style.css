@@ -90,34 +90,49 @@ li:hover{
     background:  linear-gradient(45deg, blue,black);
     height:300px;
     border-radius: 40px;
-    margin: 4%;
+    margin-top: 8rem;
+    
     cursor: pointer;
 }
 
 /* category */
 
-.cat{
+.card{
     text-align: center;
     margin-top: 5%;
+    
 }
-
-.cat div{
+.imggg{
+    height: 65%;
+    width: 100%;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.ccard{
     height: 300px;
     display: inline-block;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width:15vw;
     margin: 2%;
-    border-radius: 30px;
+    border-radius: 20px;
     cursor: pointer;
+    box-shadow:  0px 0px 22px -8px rgb(122 119 119);
 }
 
-.cat div h1{
-    height: 80px;
-    background-color: rgb(229, 251, 245);
+.ccard div{
+    background-color: white;
+    z-index: 3;
+    height: 35%;
+    margin-top: -11%;
     border-radius: 20px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-    margin-top: 96%;
+}
+
+.ccard h1{
+    font-size: 1.61vw;
+    padding: 2rem 0rem;
 }
 
 /* options */
@@ -151,17 +166,33 @@ li:hover{
     padding-top: 4%; 
 }
 
-.options div div{
-    height: 160px;
-    display: inline-block;
-    background-color: rgb(232, 179, 252);
-    width:13vw;
-    margin: .5%;
-    border-radius: 200px;
-    cursor: pointer;
-    justify-content: space-evenly;
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+}
+.lawyer{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
 }
 
+.lawyer img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100rem;
+}
+.lawyer-type{
+    font-size: 1.7rem;
+}
+.lawyer p{
+    margin-top: -0.6rem;
+    margin-bottom: 0.3rem;
+}
 /* lawyer-list */
 
 .lawyer-list{
@@ -173,10 +204,10 @@ li:hover{
 
 .lawyer-list div{  
     text-align: center;
-    padding-top: 4%; 
+    /* padding-top: 4%;  */
 }
 
-.lawyer-list div div{
+/* .lawyer-list div div{
     height: 160px;
     display: inline-block;
     background-color:chartreuse;
@@ -185,7 +216,7 @@ li:hover{
     border-radius: 200px;
     cursor: pointer;
     justify-content: space-evenly;
-}
+} */
 
 /* article-section */
 .article-section{
@@ -215,8 +246,8 @@ li:hover{
 }
 
 .article img:hover{
-    scale: 1.04;
-    box-shadow: 3px 3px 12px 2px rgb(122 119 119);
+    scale: 1.02;
+    box-shadow: 4px 4px 6px 0px  rgb(122 119 119);
     transition: all 0.3s;
 }
 
@@ -270,3 +301,4 @@ li:hover{
     font-size: large;
     font-weight: bolder;
 }
+
