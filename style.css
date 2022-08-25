@@ -1,0 +1,196 @@
+body{
+    background-color: lightskyblue;
+    margin: 0%;
+}
+
+hr{
+    margin: 0%;
+}
+
+.other{
+    padding: 7%;
+    padding-top: .5%;
+    background-color: white;
+}
+
+/* nav bar */
+
+.nav{
+    height:60px;
+    display: flex;
+    width:98vw;
+    margin: .5%;
+}
+
+.nav-right,.nav-left{
+    display: table;
+    width:100vw;
+}
+
+li{
+    /* justify-content: space-evenly;
+    margin-right: 10%; */
+    display: table-cell;
+}
+
+/* .nav-right li{
+    background-color:bisque;
+    float: right;
+} */
+
+#logo2 {
+    background-color: black;
+    justify-items: center;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    margin-right: 2%;
+  }
+  
+  #logo2:hover {
+    scale: 1.1;
+  }
+
+  .logo h6{
+    margin: 0%;
+  }
+
+  .logo{
+    text-align: center;
+  }
+
+/* banner */
+
+.banner{
+    background-color: blue;
+    height:300px;
+    border-radius: 40px;
+    margin: 4%;
+    cursor: pointer;
+}
+
+/* category */
+
+.cat{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.cat div{
+    height: 300px;
+    display: inline-block;
+    background-color: aquamarine;
+    width:15vw;
+    margin: 2%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.cat div h1{
+    height: 80px;
+    background-color: rgb(229, 251, 245);
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin-top: 96%;
+}
+
+/* options */
+.options{
+    padding: 3%;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    margin-top: 5%;
+}
+
+.options h3{
+    display:inline;
+}
+
+.options button{
+    float:right;
+    height:40px;
+    width:90px;
+    margin-top: 0%;
+    background-color: transparent;
+    border:rgb(11, 140, 219) solid 2px;
+    border-radius: 5px;
+    color:rgb(11, 140, 219);
+    font-size: large;
+    font-weight: bolder;
+    margin-right:3%;
+}
+
+.options div{  
+    text-align: center;
+    padding-top: 4%; 
+}
+
+.options div div{
+    height: 160px;
+    display: inline-block;
+    background-color: rgb(232, 179, 252);
+    width:13vw;
+    margin: .5%;
+    border-radius: 200px;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+
+/* lawyer-list */
+
+.lawyer-list{
+    padding: 3%;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    margin-top: 5%;
+}
+
+.lawyer-list div{  
+    text-align: center;
+    padding-top: 4%; 
+}
+
+.lawyer-list div div{
+    height: 160px;
+    display: inline-block;
+    background-color:chartreuse;
+    width:13vw;
+    margin: .5%;
+    border-radius: 200px;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    margin-top: 5%;
+    margin-right: 12%;
+    margin-left: 12%;
+    margin-bottom: 0%;
+}
+
+.footer img{
+    height: 50vh;
+    margin-right: 5%;
+    padding: 1%;
+}
+
+.half{
+    text-align: left;
+    padding: 5%;
+}
+
+.footer button{
+    height:60px;
+    width:200px;
+    background-color: transparent;
+    border:rgb(11, 140, 219) solid 2px;
+    border-radius: 5px;
+    color:rgb(11, 140, 219);
+    font-size: large;
+    font-weight: bolder;
+}
