@@ -110,7 +110,10 @@ li:hover{
     cursor: pointer;
     box-shadow:  0px 0px 22px -8px rgb(122 119 119);
 }
-
+.ccard:hover{
+    transform: scale(1.04);
+    box-shadow:  0px 0px 22px 0px rgb(122 119 119);
+}
 .ccard div{
     background-color: white;
     z-index: 3;
@@ -171,11 +174,19 @@ li:hover{
     align-items: center;
     margin: auto;
 }
+.lawyer img:hover{
+    transform: scale(1.04);
+    /* box-shadow: 4px 2px 15px 0px black; */
+    box-shadow:  0px 0px 15px 8px rgb(122 119 119);
+
+}
 
 .lawyer img{
     height: 10rem;
     width: 10rem;
     border-radius: 100rem;
+    border: 1px solid black;
+    box-shadow:  0px 0px 22px 4px rgb(122 119 119);
 }
 .lawyer-type{
     font-size: 1.7rem;
@@ -282,3 +293,7 @@ li:hover{
     font-weight: bolder;
 }
 
+.foter{
+    height: 15rem;
+    background: linear-gradient(white, skyblue);
+}
