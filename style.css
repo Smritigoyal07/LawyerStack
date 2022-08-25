@@ -15,9 +15,6 @@ h1{
     font-size: 1.5rem;
 }
 .other{
-    /* padding: 7%;
-    padding-top: .5%;
-    background-color: white; */
     display: flex;
     flex-direction: column;
     width: 80vw;
@@ -30,8 +27,6 @@ h1{
     height:60px;
     display: flex;
     background-color: skyblue;
-    /* width:98vw; */
-    /* width: 90vw; */
    padding: 0.6rem 1rem 0.6rem 5.5vw;
 }
 
@@ -48,9 +43,6 @@ h1{
     justify-content: space-between;
 }
 li{
-    /* justify-content: space-evenly;
-    margin-right: 10%; */
-    /* display: table-cell; */
     padding: 1.2vw 1vw;
     font-size: 1.1rem;
     font-weight: bold;
@@ -91,7 +83,7 @@ li:hover{
     height:300px;
     border-radius: 40px;
     margin-top: 8rem;
-    
+
     cursor: pointer;
 }
 
@@ -112,7 +104,6 @@ li:hover{
 .ccard{
     height: 300px;
     display: inline-block;
-    /* background-color: aquamarine; */
     width:15vw;
     margin: 2%;
     border-radius: 20px;
@@ -204,19 +195,8 @@ li:hover{
 
 .lawyer-list div{  
     text-align: center;
-    /* padding-top: 4%;  */
 }
 
-/* .lawyer-list div div{
-    height: 160px;
-    display: inline-block;
-    background-color:chartreuse;
-    width:13vw;
-    margin: .5%;
-    border-radius: 200px;
-    cursor: pointer;
-    justify-content: space-evenly;
-} */
 
 /* article-section */
 .article-section{
