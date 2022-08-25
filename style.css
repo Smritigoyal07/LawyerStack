@@ -163,6 +163,58 @@ li{
     justify-content: space-evenly;
 }
 
+/* article-section */
+.article-section{
+    display:flex;
+    margin-top: 5%;
+    height: 40vh;
+    text-align: left;
+    padding: 3%;
+}
+
+.div1{
+    width:40vw;
+    padding: 1%;
+    text-align: left;
+}
+
+.article{
+    width:30vw;
+    padding: 1%;
+}
+
+.article img{
+    height:25vh;
+    width:20vw;
+    background-color: cyan;
+    border-radius: 20px;
+}
+
+.article img:hover{
+    scale: 1.04;
+    box-shadow: 3px 3px 12px 2px rgb(122 119 119);
+    transition: all 0.3s;
+}
+
+.div1 button{
+    height:40px;
+    width:150px;
+    background-color: rgb(67, 171, 235);
+    border-radius: 5px;
+    color:white;
+    font-weight: bolder;
+    border: white;
+}
+
+.div1 button:hover{
+    background-color: rgb(141, 199, 235);
+    color:black;
+}
+
+.article h3 , h5{
+    margin: 3%;
+}
+
 /* footer */
 
 .footer{
