@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "font";
+  src: url("../font/fonts.ttf");
+}
+
+* {
+  font-family: font;
+}
+
+body {
+  width: 80vw;
+  margin: auto;
+  font-size: 15px;
+  color:black;
+  font-weight:bold;
+  letter-spacing: 1px;
+  /* background-color: rgb(191, 228, 250); */
+  /* border:2px rgb(22, 185, 235) solid;*/
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding :1%; 
+  /* box-shadow: rgb(22, 185, 235) 2px  2px 3px 3px; */
+}
+
+.other {
+  padding: 2%;
+  text-align: justify;
+}
+
+.top {
+  display: flex;
+  margin-top: 2%;
+  padding-right: 2%;
+  /* box-shadow:grey 2px 2px 2px 2px; */
+  /* padding:1%; */
+}
+
+.adv{
+  color:rgb(149, 220, 241);
+  color:rgb(22, 185, 235);
+  color:black;
+  /* font-size:30px; */
+  /* background-color:rgb(149, 220, 241) ;
+  display:inline;
+  padding:1%; */
+  
+}
+
+.profile-picture,
+.info {
+  margin: auto;
+}
+
+.profile-picture img {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 5px;
+  /* background-image: linear-gradient(lavender,white); */
+  /* background-color: lavender; */
+}
+
+.verified {
+  padding: 3%;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+  border: 2px solid black ;
+  color: black;
+  font-weight: bolder;
+  background-color: rgb(149, 220, 241);
+  background-color: lightgreen;
+}
+
+.info {
+  width: 60vw;
+}
+
+.profile-summary {
+  padding-top: 1%;
+  padding-right: 4%;
+}
+
+.heading {
+  font-size: larger;
+  text-transform: uppercase;
+  color:rgb(22, 185, 235);
+  color:black;
+}
+
+.list li {
+  display: inline;
+}
+
+.list {
+  text-align: justify;
+}
+
+.row {
+  display: flex;
+}
+
+.title {
+  width: 470px;
+}
+
+.aside {
+  margin: auto;
+  text-align: left;
+}
+
+.aside1 {
+  width: 30vw;
+  margin-top: 0%;
+}
+
+.aside i {
+  color: rgb(22, 185, 235);
+  width: 20px;
+  height: 20px;
+}
