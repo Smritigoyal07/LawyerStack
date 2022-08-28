@@ -12,7 +12,7 @@ body{
 }
 
 h1{
-    font-size: 1.5rem;
+    font-size: 1.5vw;
 }
 .other{
     display: flex;
@@ -24,10 +24,10 @@ h1{
 /* nav bar */
 
 .nav{
-    height:60px;
+    height:4.5vw;
     display: flex;
     background-color: skyblue;
-   padding: 0.6rem 1rem 0.6rem 5.5vw;
+   padding: 0.6vw 1vw 0.6vw 5.5vw;
 }
 
 .nav-right,.nav-left{
@@ -44,7 +44,7 @@ h1{
 }
 li{
     padding: 1.2vw 1vw;
-    font-size: 1.1rem;
+    font-size: 1.16vw;
     font-weight: bold;
 }
 
@@ -57,11 +57,11 @@ li:hover{
 #logo2 {
     background-color: black;
     justify-items: center;
-    width: 45px;
-    height: 45px;
+    width: 3.25vw;
+    height: 3.25vw;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 24px;
-    margin: 1px 1px 1px 1px;
+    border-radius: 24vw;
+    margin: 0.12vw 0.12vw 0.12vw 0.12vw;
   }
   
   #logo2:hover {
@@ -69,7 +69,8 @@ li:hover{
   }
 
   .logo h6{
-    margin-top: -0.3rem;
+    font-size: 0.7vw;
+    margin-top: -0.3vw;
   }
 
   .logo{
@@ -80,9 +81,9 @@ li:hover{
 
 .banner{
     background:  linear-gradient(45deg, blue,black);
-    height:300px;
+    height: 20vw;
     border-radius: 40px;
-    margin-top: 8rem;
+    margin-top: 8vw;
 
     cursor: pointer;
 }
@@ -95,7 +96,8 @@ li:hover{
     
 }
 .imggg{
-    height: 65%;
+    /* height: 65%; */
+    height: 12.7vw;
     width: 100%;
     border-radius: 20px;
     border-bottom-left-radius: 0px;
@@ -103,6 +105,7 @@ li:hover{
 }
 .ccard{
     height: 300px;
+    height: 20vw;
     display: inline-block;
     width:15vw;
     margin: 2%;
@@ -126,7 +129,7 @@ li:hover{
 
 .ccard h1{
     font-size: 1.61vw;
-    padding: 2rem 0rem;
+    padding: 2vw 0rem;
 }
 
 /* options */
@@ -140,17 +143,22 @@ li:hover{
 .options h3{
     display:inline;
 }
-
+h3{
+    font-size: 1.21vw;
+}
+.lawyer p{
+    font-size: 1.2vw;
+}
 .options button{
     float:right;
-    height:40px;
-    width:90px;
+    height:2.7vw;
+    width:6vw;
+    font-size: 1vw;
     margin-top: 0%;
     background-color: transparent;
     border:rgb(11, 140, 219) solid 2px;
     border-radius: 5px;
     color:rgb(11, 140, 219);
-    font-size: large;
     font-weight: bolder;
     margin-right:3%;
 }
@@ -168,7 +176,7 @@ li:hover{
 .lawyer{
     display: flex;
     flex-direction: column;
-    width: 15rem;
+    width: 15vw;
     text-align: center;
     justify-items: center;
     align-items: center;
@@ -182,18 +190,18 @@ li:hover{
 }
 
 .lawyer img{
-    height: 10rem;
-    width: 10rem;
-    border-radius: 100rem;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100vw;
     border: 1px solid black;
     box-shadow:  0px 0px 22px 4px rgb(122 119 119);
 }
 .lawyer-type{
-    font-size: 1.7rem;
+    font-size: 1.7vw;
 }
 .lawyer p{
-    margin-top: -0.6rem;
-    margin-bottom: 0.3rem;
+    margin-top: -0.6vw;
+    margin-bottom: 0.3vw;
 }
 /* lawyer-list */
 
@@ -213,7 +221,7 @@ li:hover{
 .article-section{
     display:flex;
     margin-top: 5%;
-    height: 40vh;
+    height: 25vw;
     text-align: left;
     padding: 3%;
 }
@@ -230,7 +238,7 @@ li:hover{
 }
 
 .article img{
-    height:25vh;
+    height:12vw;
     width:20vw;
     background-color: cyan;
     border-radius: 20px;
@@ -243,8 +251,9 @@ li:hover{
 }
 
 .div1 button{
-    height:40px;
-    width:150px;
+    height:2.7vw;
+    width:10vw;
+    font-size: 0.9vw;
     background-color: rgb(67, 171, 235);
     border-radius: 5px;
     color:white;

@@ -18,17 +18,41 @@
             <p class="headlogin">Register : Lawyer</p>
             <a href="loginclient.html" class="link">Already have an account</a>
             <div class="btn bttn">
-                <p>Name</p><input type="text" placeholder="full name">
+                <p>Name</p><input type="input" name="name" placeholder="full name">
                 <p>Gender </p>
                 <div>
                     male<input type="radio" name="Mygender">
                     Female<input type="radio" name="Mygender">
                     Others<input type="radio" name="Mygender">
                 </div>
-                <p>Phone number</p><input type="number" placeholder="phone number">
-                <p>email</p><input type="email" placeholder="email">
-                <p>Password</p><input type="password" placeholder="password">
-
+                <p>About</p><input type="text" placeholder="About" cols="30" rows="30">
+                <p>Address</p><input type="input" name="address" placeholder="Address">
+                <p>Location</p><input type="input" name="location" placeholder="location">
+                <p><label for="State">State</label></p>
+                <select name="state" id="State">
+                    <option value="select"></option>
+                    <option value="delhi">delhi</option>
+                </select>
+                
+                <p><label for="city">city</label></p>
+                <select name="city" id="city">
+                    <option value="select"></option>
+                    <option value="city">city</option>
+                </select>
+                
+                <p>PIN Code : </p><input type="number" placeholder="PIN Code">
+                
+                <p><label for="Locality">Locality</label></p>
+                <select name="Locality" id="Locality">
+                    <option value="select"></option>
+                    <option value="Locality">Locality</option>
+                </select>
+                <p>Phone number</p><input type="input" name="phonenumber" placeholder="phone number">
+                <p>UPI ID</p><input type="number" name="upiid" placeholder="UPI ID">
+                <p>Licence Number</p><input type="input" name="licencenumber" placeholder="Licence Number">
+                <p>Time to Complete Case</p><input type="input" name="phonenumber" placeholder="Time to Complete Case">
+                <p>email</p><input type="email" name="email" placeholder="email">
+                <p>Password</p><input type="password" name="password" placeholder="password">
                 <p><label for="Speciality">Speciality</label></p>
                 <select name="spec" id="Speciality">
                     <option value="select"></option>
@@ -37,6 +61,12 @@
                     <option value="Property">Property</option>
                     <option value="criminal">criminal</option>
                 </select>
+                <p>Resume</p><input type="input" name="resume" placeholder="Resume">
+                <p>Graduation Degree</p>
+                <div>
+                <input type="file" id="choose_File" name="gradegree" placeholder="gradegree">
+            </div>
+
                 <p>Bar Council Id</p>
                 <div class="bar"></div>
                 <p>Bar Council Certificate or ID card</p>
@@ -45,25 +75,7 @@
                 <input type="file" id="choose_File">
             </div>
             
-                <p><label for="State">State</label></p>
-                <select name="state" id="State">
-                    <option value="select"></option>
-                    <option value="delhi">delhi</option>
-                </select>
-
-                <p><label for="city">city</label></p>
-                <select name="city" id="city">
-                    <option value="select"></option>
-                    <option value="city">city</option>
-                </select>
-
-                <p>PIN Code : </p><input type="number" placeholder="PIN Code">
-
-                <p><label for="Locality">Locality</label></p>
-                <select name="Locality" id="Locality">
-                    <option value="select"></option>
-                    <option value="Locality">Locality</option>
-                </select>
+               
 
 
 
@@ -74,7 +86,7 @@
 
             </div>
             <div class="btn">
-                <button id="Register">Register</button>
+                <button type="submit" id="Register">Register</button>
                 <a href="FloginPage.html" class="link">LogIn Page</a>
             </div>
         </div>

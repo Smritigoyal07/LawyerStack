@@ -56,6 +56,10 @@ button{
     background-color: rgba(0, 0, 0, 0.533);
     color: aliceblue;
     font-family: font;
-    z-index: 4;
-
+}
+.bySome{
+    margin-top: -1vw;
+    padding: 1vw;
+    display: flex;
+    left: 0;
 }
