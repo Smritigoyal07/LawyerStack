@@ -19,7 +19,6 @@ body {
 
 .banner {
   background-color: rgb(130, 216, 230);
-  width: 100vw;
   padding: 3%;
   text-align: center;
   height: 60vh;
@@ -39,7 +38,7 @@ body {
   margin-top: 2%;
   margin-bottom: 2%;
   height: 6vh;
-  border-radius: 10px;
+  border-radius: 1vw;
   text-align: center;
 }
 
@@ -123,8 +122,8 @@ input:hover {
 }
 
 .doc img {
-  border-radius: 120px;
-  height: 30vh;
+  border-radius: 30vw;
+  height: 15vw;
   width: 15vw;
   box-shadow: grey 2px 2px 3px 3px;
 }
@@ -157,7 +156,7 @@ input:hover {
 
 .normal i {
   width: 10%;
-  height: 20px;
+  height: 1vw;
   text-align: center;
 }
 
@@ -187,9 +186,9 @@ a {
 }
 
 .booking-btn {
-  width: 212px;
-  height: 40px;
-  padding: 4px 0;
+  width: 14vw;
+  height: 3vw;
+  padding: 0.5vw 0;
   outline: none;
   cursor: pointer;
   vertical-align: middle;
@@ -199,7 +198,7 @@ a {
   border-radius: 4px;
   text-transform: capitalize;
   font-weight: 700 !important;
-  font-size: 14px;
+  font-size: 0.9vw;
   font-family: Camphor, sans-serif;
   box-sizing: inherit;
   appearance: auto;

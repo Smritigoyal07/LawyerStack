@@ -2,13 +2,18 @@
     font-family: "font";
     src: url("../font/fonts.ttf");
 }
-
+.Mainarticles{
+    display: flex;
+    flex-wrap: wrap;
+    width:93vw;
+    margin: 3vw auto;
+}
 .article{
     font-family: font;
-    width: 70vw;
+    width:28.5vw;
     margin:3vw auto;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     /* border: 2px solid red; */
     border-radius: 2vw;
     box-shadow:  0px 0px 22px -4px rgb(122 119 119);
@@ -16,32 +21,33 @@
     padding: 2vw;
 }
 .ArtHeading{
+    margin-top: 1vw;
     font-size: 2vw;
     font-weight: bold;
 }
+
 img{
-    height: 20vw;
-    width: 20vw;
+    height: 15vw;
+    /* width: 16vw; */
     border-radius: 2vw;
     box-shadow:  0px 0px 22px -4px rgb(122 119 119);
 }
 .content{
-    line-height: 1.7vw;
-    font-size: 1.11vw;
+    line-height: 1.6vw;
+    font-size: 1.1vw;
     overflow: hidden;
-    padding-right: 3.5vw;
     position: relative;
 }
 .tohide{
-    height: calc(6*1.7vw);
+    height: calc(3*1.6vw);
 }
 
 .tohide::after{
     content: '';
     position: absolute;
     bottom: 0;
-    right: 20px;
-    height: 1.7vw;
+    right: 0;
+    height: 1.6vw;
     width: 100%;
     background: linear-gradient(90deg, transparent , white) ;
 }
@@ -53,13 +59,36 @@ button{
     height: 3.1vw;
     width: 10vw;
     font-size: 1vw;
+    border-radius: 1vw !important;
     background-color: rgba(0, 0, 0, 0.533);
     color: aliceblue;
     font-family: font;
 }
+.modal-title{
+    font-size: 2vw;
+}
 .bySome{
     margin-top: -1vw;
     padding: 1vw;
+    font-size: 1.1vw;
     display: flex;
-    left: 0;
+}
+.division{
+    display: flex;
+    margin: 0vw 2vw;
+
+}
+.division p{
+    padding: 1vw 1.4vw;
+    font-size: 1.03vw;
+    margin-bottom: 0;
+}
+.npara{
+    font-size: 1.03vw;
+    padding: 1vw 1.4vw;
+    margin: -1vw 2vw 0vw 2vw;
+}
+
+.division img{
+    margin: auto;
 }
