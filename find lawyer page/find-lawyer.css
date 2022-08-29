@@ -19,19 +19,22 @@ body {
 
 .banner {
   background-color: rgb(130, 216, 230);
+  width: 95vw;
   padding: 3%;
   text-align: center;
-  height: 60vh;
+  height: 50vh;
 
 }
 
 .container {
   display: flex;
   text-align: center;
+  width:60vw;
+  margin:auto;
 }
 
 .locality,
-.keyword {
+.keyword{
   margin: auto;
   border: black 2px solid;
   background-color: white;
@@ -40,6 +43,24 @@ body {
   height: 6vh;
   border-radius: 1vw;
   text-align: center;
+}
+
+.btn{  
+  padding-top:2.5%;  
+}
+
+.btn button{
+  width:7vw;
+  height: 5vh;
+  font-size:large;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.btn button:hover{
+  background-color:lightgrey;
+  scale:1.1;
+  font-size:larger;
 }
 
 .locality {
@@ -60,7 +81,6 @@ input {
   border: white;
   height: 5vh;
   font-size: medium;
-  /* margin-top: 0%; */
 }
 
 .locality input {
@@ -96,9 +116,6 @@ a:hover {
 }
 
 i {
-  /* height:5vh;
-    width:5vh; */
-  /* margin-top:.4%; */
   color: black;
 }
 
