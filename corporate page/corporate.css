@@ -1,0 +1,26 @@
+body{
+    text-align:left;
+    margin:auto;
+    width:40vw;
+    height: 50vh;
+    
+    background-color:azure;
+}
+
+form{
+    padding:4%;
+    box-shadow: grey 2px 2px 3px 3px;
+    background-color:white;
+    margin-top: 10%;
+    color:rgb(1, 109, 251);
+}
+
+span{
+    color:red;
+}
+
+h2{
+    text-transform:capitalize;
+    margin-top:7%;
+    /* color:rgb(1, 109, 251); */
+}
