@@ -1,0 +1,36 @@
+body {
+  text-align: left;
+  margin: auto;
+  width: 40vw;
+  background-color: azure;
+  min-width: 300px;
+}
+
+form {
+  padding: 4%;
+  box-shadow: grey 2px 2px 3px 3px;
+  background-color: white;
+  margin-top: 10%;
+  color: rgb(1, 109, 251);
+}
+
+span {
+  color: red;
+}
+
+h2 {
+  text-transform: capitalize;
+  margin-top: 7%;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    width: 90vw;
+  }
+}
