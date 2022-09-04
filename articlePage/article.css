@@ -26,7 +26,7 @@
     font-weight: bold;
 }
 
-img{
+.article img{
     height: 15vw;
     /* width: 16vw; */
     border-radius: 2vw;
@@ -52,7 +52,7 @@ img{
     background: linear-gradient(90deg, transparent , white) ;
 }
 
-button{
+.article button{
     /* padding: 0.6vw 1.9vw; */
     background:linear-gradient(45deg ,grey 20%, rgba(0, 0, 0, 0.823) 80%);
     box-shadow:  0px 0px 22px 0px rgb(122 119 119);
@@ -91,4 +91,35 @@ button{
 
 .division img{
     margin: auto;
+}
+
+@media screen and (max-width: 850px){
+    .article{
+        width:40vw;
+    }
+    .ArtHeading{
+        font-size: 3vw;
+    }
+    .article img{
+        height: 23vw;
+    }
+    .content{
+        line-height: 2.3vw;
+        font-size: 2vw;
+    }
+    .tohide{
+        height: calc(3*2.3vw);
+    }
+    
+    .tohide::after{ 
+        height: 2.3vw;
+    }
+    .article button{
+        height: 5vw;
+        width: 16vw;
+        font-size:2.2vw;
+    }
+    .bySome{
+        font-size: 1.8vw;
+    }
 }
