@@ -92,6 +92,9 @@
 .division img{
     margin: auto;
 }
+.btn-close{
+ display: none;       
+}
 
 @media screen and (max-width: 850px){
     .article{
@@ -119,7 +122,34 @@
         width: 16vw;
         font-size:2.2vw;
     }
+    
     .bySome{
         font-size: 1.8vw;
     }
+    .division{
+        flex-direction: column;
+    }
+    .division p{
+        font-size: 1.5vw;
+    }
+    .npara{
+        font-size: 1.5vw;
+    }
+}
+@media screen and (max-width: 550px){
+    .division p{
+        font-size: 2.7vw;
+    }
+    .npara{
+        font-size: 2.7vw;
+    }
+    .division img{
+        margin-top: 2vw;
+    }
+    .bySome{
+        font-size: 2.3vw;
+    }
+    .modal-title{
+        font-size: 3.4vw;
+    }   
 }
