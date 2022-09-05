@@ -309,7 +309,7 @@ h3{
 
 /* footer */
 
-.footer{
+/* .footer{
     display: flex;
     margin-top: 5%;
     margin-right: 12%;
@@ -342,7 +342,7 @@ h3{
 .foter{
     height: 15rem;
     background: linear-gradient(white, skyblue);
-}
+} */
 
 
 
@@ -1105,4 +1105,55 @@ h3{
     #exampleModalLabel{
       font-size: 4vw !important;
     } 
+}
+
+/* footer page */
+
+.footer{
+  background-color:rgb(104, 103, 103);
+  color:white;
+  height:40vh;
+  text-align: center;
+  padding:1%;
+  padding-bottom: 2%;
+}
+
+.footer a{
+  color:white;
+}
+
+.footer .logo img {
+  border-radius: 20px;
+  width: 80px;
+  height:80px;
+}
+
+.link-section {
+  display:flex;
+  margin:2%;
+  text-align: left;
+  margin-bottom:4%;
+  justify-content: space-evenly;
+}
+
+.link-section div{
+  /* margin: auto; */
+  display: flex;
+  flex-direction: column;
+  text-align:left;
+}
+
+.footer__title{
+  font-size:18px;
+  font-weight:bold;
+  text-align:left;
+}
+
+.div-sec{
+  text-align:left;
+  width:20%;
+}
+
+.center-it{
+  text-align:center;
 }
