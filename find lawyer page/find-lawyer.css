@@ -15,12 +15,18 @@ body {
 }
 
 #heading {
+  font-size: 3vw;
   margin: 4%;
 }
 
+<<<<<<< HEAD
 .banner {
   background-color: rgb(130, 216, 230);
   width:94%;
+=======
+.bannner {
+  background: linear-gradient(65deg, skyblue,black);
+>>>>>>> a1fa33921992b141440184e7d99dd26a1b9defaa
   padding: 3%;
   text-align: center;
   height: 50vh;
@@ -29,12 +35,18 @@ body {
 .container {
   display: flex;
   text-align: center;
-  width:60vw;
+  justify-content: space-evenly;
+  width:65vw ;
   margin:auto;
 }
 
-.locality,
-.keyword{
+.container input{
+  margin: 3px auto;
+}
+.searcharea{
+  display: flex;
+}
+.locality, .keyword{
   margin: auto;
   border: black 2px solid;
   background-color: white;
@@ -80,6 +92,7 @@ body {
 input {
   border: white;
   height: 5vh;
+  outline: none;
   font-size: medium;
 }
 
@@ -142,8 +155,12 @@ input:hover {
 }
 
 .doc div {
+<<<<<<< HEAD
   margin: auto;
   
+=======
+  margin: auto 2%;
+>>>>>>> a1fa33921992b141440184e7d99dd26a1b9defaa
 }
 
 .doc img {
@@ -242,4 +259,20 @@ a {
 
 .booking-btn:hover {
   background-color: #65d8fb;
+}
+.availability{
+  width: 16vw;
+}
+
+@media screen and (max-width : 850px){
+  .container {
+    flex-direction: column;
+  }
+  .locality {
+    width: 30vw;
+  }
+  
+  .keyword  {
+    width: 40vw;
+  }
 }

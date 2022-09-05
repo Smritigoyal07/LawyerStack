@@ -7,11 +7,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="find-lawyer.css">
+    <!-- <link rel="stylesheet" href="find-lawyer.css"> -->
+    <link rel="stylesheet" href="../mainCSS.css">
+    <link rel="stylesheet" media="(max-width : 600px)" href="../phone.css">
 </head>
 
 <body>
-    <div class="banner">
+    <navbar>
+        <div class="navbarr">
+            <div class="contaiiner navv-contaiiner">
+
+                <div class="logo"><img id="logo2"
+                        src="https://thumbs.dreamstime.com/b/law-firm-lawyer-law-office-symbol-isolated-dark-background-simple-vector-logo-law-firm-lawyer-law-office-symbol-isolated-195469545.jpg"
+                        alt="logo">
+                    <h6>LAWYERSTACK</h6>
+                </div>
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="menu-items">
+                    <li><a href="#">Find Lawyers</a></li>
+                    <li><a href="#">Video Consultation</a></li>
+                    <li><a href="#">Documents Making</a></li>
+                    <li><a href="#">Lawyer</a></li>
+                    <li><a href="#">For Corporate</a></li>
+                    <li><a href="#">Need Help</a></li>
+                    <li><a href="#">My profile</a></li>
+                </div>
+            </div>
+        </div>
+    </navbar>
+
+
+
+
+    <div class="nav">
+        <div class="logo"><img id="logo2"
+                src="https://thumbs.dreamstime.com/b/law-firm-lawyer-law-office-symbol-isolated-dark-background-simple-vector-logo-law-firm-lawyer-law-office-symbol-isolated-195469545.jpg"
+                alt="logo">
+            <h6>LAWYERSTACK</h6>
+        </div>
+        <div class="nav-elements">
+            <ul class="nav-left">
+                <li>Find Lawyers</li>
+                <li>Video Consultation</li>
+                <li>Documents Making</li>
+            </ul>
+            <ul class="nav-right">
+                <li> <a href="">Lawyer</a></li>
+                <li>For Corporate</li>
+                <li>Need Help</li>
+                <li>My profile</li>
+            </ul>
+        </div>
+    </div>
+    <div class="bannner">
         <div class="header">
             <h1 id="heading">Your home for Concerns</h1>
         </div>
@@ -19,17 +72,19 @@
             <h3>Find and Hire</h3>
         </div>
         <div class="container">
-            <div class="locality">
-                <i class="fa fa-map-marker" aria-hidden="true"> </i>
-                <input id="omni-searchbox-locality" data-input-box-id="omni-searchbox-locality"
-                    class="c-omni-searchbox c-omni-searchbox--large" autocomplete="off" placeholder="Search location"
-                    value="" />
-            </div>
-            <div class="keyword">
-                <i class="fa fa-search" aria-hidden="false"> </i>
-                <input id="omni-searchbox-keyword" id="omni-searchbox-keyword"
-                    class="c-omni-searchbox c-omni-searchbox--large" autocomplete="off"
-                    placeholder="Search Lawyer Category" value="" />
+            <div class="searcharea">
+                <div class="locality">
+                    <i class="fa fa-map-marker" aria-hidden="true"> </i>
+                    <input id="omni-searchbox-locality" data-input-box-id="omni-searchbox-locality"
+                        class="c-omni-searchbox c-omni-searchbox--large" autocomplete="off"
+                        placeholder="Search location" value="" />
+                </div>
+                <div class="keyword">
+                    <i class="fa fa-search" aria-hidden="false"> </i>
+                    <input id="omni-searchbox-keyword" id="omni-searchbox-keyword"
+                        class="c-omni-searchbox c-omni-searchbox--large" autocomplete="off"
+                        placeholder="Search Lawyer Category" value="" />
+                </div>
             </div>
             <div class=btn>
                 <button>search</button>

@@ -14,6 +14,7 @@ navbar{
     position: fixed;
     width: 100vw;
     display: flex;
+    margin-bottom: 3vw;
 }
 
 .contaiiner {

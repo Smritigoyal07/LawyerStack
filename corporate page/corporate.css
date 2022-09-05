@@ -1,4 +1,4 @@
-body {
+.corp{
   text-align: left;
   margin: auto;
   width: 40vw;
@@ -6,7 +6,11 @@ body {
   min-width: 300px;
 }
 
+<<<<<<< HEAD
 form { 
+=======
+.formm {
+>>>>>>> a1fa33921992b141440184e7d99dd26a1b9defaa
   padding: 4%;
   box-shadow: grey 2px 2px 3px 3px;
   background-color: white;
@@ -14,23 +18,23 @@ form {
   color: rgb(1, 109, 251);
 }
 
-span {
+.star {
   color: red;
 }
 
-h2 {
+.formfill {
   text-transform: capitalize;
   margin-top: 7%;
 }
 
 @media screen and (max-width: 1000px) {
-  body {
+  .corp {
     width: 70vw;
   }
 }
 
 @media screen and (max-width: 500px) {
-  body {
+  .corp {
     width: 90vw;
   }
 }
