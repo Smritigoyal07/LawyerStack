@@ -8,27 +8,84 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="article.css">
+    <!-- <link rel="stylesheet" href="article.css"> -->
+    <link rel="stylesheet" href="../mainCSS.css" />
+    <link rel="stylesheet"  media="(max-width : 600px)" href="../phone.css">
 </head>
 
 <body>
-    <div class="Mainarticles">
-        <div class="article">
+    <navbar>
+        <div class="navbarr">
+            <div class="contaiiner navv-contaiiner">
+
+                <div class="logo"><img id="logo2"
+                        src="https://thumbs.dreamstime.com/b/law-firm-lawyer-law-office-symbol-isolated-dark-background-simple-vector-logo-law-firm-lawyer-law-office-symbol-isolated-195469545.jpg"
+                        alt="logo">
+                    <h6>LAWYERSTACK</h6>
+                </div>
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="menu-items">
+                    <li><a href="#">Find Lawyers</a></li>
+                    <li><a href="#">Video Consultation</a></li>
+                    <li><a href="#">Documents Making</a></li>
+                    <li><a href="#">Lawyer</a></li>
+                    <li><a href="#">For Corporate</a></li>
+                    <li><a href="#">Need Help</a></li>
+                    <li><a href="#">My profile</a></li>
+                </div>
+            </div>
+        </div>
+    </navbar>
+
+
+
+
+    <div class="nav">
+        <div class="logo"><img id="logo2"
+                src="https://thumbs.dreamstime.com/b/law-firm-lawyer-law-office-symbol-isolated-dark-background-simple-vector-logo-law-firm-lawyer-law-office-symbol-isolated-195469545.jpg"
+                alt="logo">
+            <h6>LAWYERSTACK</h6>
+        </div>
+        <div class="nav-elements">
+            <ul class="nav-left">
+                <li>Find Lawyers</li>
+                <li>Video Consultation</li>
+                <li>Documents Making</li>
+            </ul>
+            <ul class="nav-right">
+                <li> <a href="">Lawyer</a></li>
+                <li>For Corporate</li>
+                <li>Need Help</li>
+                <li>My profile</li>
+            </ul>
+        </div>
+    </div>
+    <div class="Mainaarticles">
+        <div class="aarticle">
             <img src="../images/article.jpg" alt="" srcset="">
             <div>
                 <h2 class="ArtHeading mar">heading of article (300 words)</h2>
 
                 <div class="onearticle">
-                    <p class="content tohide">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, ipsa praesentium! Obcaecati ratione voluptas, iste fuga doloremque modi dolorem quos perspiciatis totam corporis tenetur, voluptatibus vel ab. Minus fuga accusamus numquam, distinctio laboriosam fugiat sapiente voluptate, officia aliquid non veniam? Eligendi quos quas illum facere nam repellat, dicta maiores dolore!
+                    <p class="content tohide">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus,
+                        ipsa praesentium! Obcaecati ratione voluptas, iste fuga doloremque modi dolorem quos
+                        perspiciatis totam corporis tenetur, voluptatibus vel ab. Minus fuga accusamus numquam,
+                        distinctio laboriosam fugiat sapiente voluptate, officia aliquid non veniam? Eligendi quos quas
+                        illum facere nam repellat, dicta maiores dolore!
                     </p>
                     <div class="bySome">-by someone of someone</div>
                 </div>
-                 
+
                 <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Read more
                 </button>
 
-                
+
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog modal-dialog modal-xl">
@@ -38,7 +95,7 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <div class="division">
+                            <div class="divvision">
                                 <img src="../images/article.jpg" alt="" srcset="">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit delectus autem,
                                     doloribus, tenetur nisi quia asperiores eveniet repellendus tempore adipisci,
@@ -80,22 +137,26 @@
             </div>
 
         </div>
-        <div class="article">
+        <div class="aarticle">
             <img src="../images/article.jpg" alt="" srcset="">
             <div>
                 <h2 class="ArtHeading mar">heading of article (300 words)</h2>
 
                 <div class="onearticle">
-                    <p class="content tohide">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur hic quibusdam iusto rerum! Maxime ipsam pariatur labore voluptates necessitatibus animi ipsa aliquid quasi delectus, earum suscipit facere modi vero quod nisi aspernatur non perspiciatis cumque voluptate nam consequuntur iste neque amet quis? Omnis quaerat sapiente voluptatem repellat nam dignissimos molestiae.
+                    <p class="content tohide">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur hic
+                        quibusdam iusto rerum! Maxime ipsam pariatur labore voluptates necessitatibus animi ipsa aliquid
+                        quasi delectus, earum suscipit facere modi vero quod nisi aspernatur non perspiciatis cumque
+                        voluptate nam consequuntur iste neque amet quis? Omnis quaerat sapiente voluptatem repellat nam
+                        dignissimos molestiae.
                     </p>
                     <div class="bySome">-by someone of someone</div>
                 </div>
-                 
+
                 <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Read more
                 </button>
 
-                
+
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog modal-dialog modal-xl">
@@ -105,7 +166,7 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <div class="division">
+                            <div class="divvision">
                                 <img src="../images/article.jpg" alt="" srcset="">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit delectus autem,
                                     doloribus, tenetur nisi quia asperiores eveniet repellendus tempore adipisci,
@@ -147,22 +208,26 @@
             </div>
 
         </div>
-        <div class="article">
+        <div class="aarticle">
             <img src="../images/article.jpg" alt="" srcset="">
             <div>
                 <h2 class="ArtHeading mar">heading of article (300 words)</h2>
 
                 <div class="onearticle">
-                    <p class="content tohide">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur hic quibusdam iusto rerum! Maxime ipsam pariatur labore voluptates necessitatibus animi ipsa aliquid quasi delectus, earum suscipit facere modi vero quod nisi aspernatur non perspiciatis cumque voluptate nam consequuntur iste neque amet quis? Omnis quaerat sapiente voluptatem repellat nam dignissimos molestiae.
+                    <p class="content tohide">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur hic
+                        quibusdam iusto rerum! Maxime ipsam pariatur labore voluptates necessitatibus animi ipsa aliquid
+                        quasi delectus, earum suscipit facere modi vero quod nisi aspernatur non perspiciatis cumque
+                        voluptate nam consequuntur iste neque amet quis? Omnis quaerat sapiente voluptatem repellat nam
+                        dignissimos molestiae.
                     </p>
                     <div class="bySome">-by someone of someone</div>
                 </div>
-                 
+
                 <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Read more
                 </button>
 
-                
+
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog modal-dialog modal-xl">
@@ -172,7 +237,7 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <div class="division">
+                            <div class="divvision">
                                 <img src="../images/article.jpg" alt="" srcset="">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit delectus autem,
                                     doloribus, tenetur nisi quia asperiores eveniet repellendus tempore adipisci,
@@ -214,22 +279,26 @@
             </div>
 
         </div>
-        <div class="article">
+        <div class="aarticle">
             <img src="../images/article.jpg" alt="" srcset="">
             <div>
                 <h2 class="ArtHeading mar">heading of article (300 words)</h2>
 
                 <div class="onearticle">
-                    <p class="content tohide">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur hic quibusdam iusto rerum! Maxime ipsam pariatur labore voluptates necessitatibus animi ipsa aliquid quasi delectus, earum suscipit facere modi vero quod nisi aspernatur non perspiciatis cumque voluptate nam consequuntur iste neque amet quis? Omnis quaerat sapiente voluptatem repellat nam dignissimos molestiae.
+                    <p class="content tohide">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur hic
+                        quibusdam iusto rerum! Maxime ipsam pariatur labore voluptates necessitatibus animi ipsa aliquid
+                        quasi delectus, earum suscipit facere modi vero quod nisi aspernatur non perspiciatis cumque
+                        voluptate nam consequuntur iste neque amet quis? Omnis quaerat sapiente voluptatem repellat nam
+                        dignissimos molestiae.
                     </p>
                     <div class="bySome">-by someone of someone</div>
                 </div>
-                 
+
                 <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Read more
                 </button>
 
-                
+
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog modal-dialog modal-xl">
@@ -239,7 +308,7 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <div class="division">
+                            <div class="divvision">
                                 <img src="../images/article.jpg" alt="" srcset="">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit delectus autem,
                                     doloribus, tenetur nisi quia asperiores eveniet repellendus tempore adipisci,
@@ -281,22 +350,26 @@
             </div>
 
         </div>
-        <div class="article">
+        <div class="aarticle">
             <img src="../images/article.jpg" alt="" srcset="">
             <div>
                 <h2 class="ArtHeading mar">heading of article (300 words)</h2>
 
                 <div class="onearticle">
-                    <p class="content tohide">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit sequi maiores odit eius maxime? Animi dolores distinctio molestiae quasi! Recusandae mollitia maxime libero voluptate eveniet perferendis quis consequatur amet veniam, inventore qui possimus labore, aperiam et neque sapiente fugiat nihil totam eos eum optio pariatur illum illo nesciunt? Quis, et?
+                    <p class="content tohide">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit sequi
+                        maiores odit eius maxime? Animi dolores distinctio molestiae quasi! Recusandae mollitia maxime
+                        libero voluptate eveniet perferendis quis consequatur amet veniam, inventore qui possimus
+                        labore, aperiam et neque sapiente fugiat nihil totam eos eum optio pariatur illum illo nesciunt?
+                        Quis, et?
                     </p>
                     <div class="bySome">-by someone of someone</div>
                 </div>
-                 
+
                 <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Read more
                 </button>
 
-                
+
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog modal-dialog modal-xl">
@@ -306,7 +379,7 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <div class="division">
+                            <div class="divvision">
                                 <img src="../images/article.jpg" alt="" srcset="">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit delectus autem,
                                     doloribus, tenetur nisi quia asperiores eveniet repellendus tempore adipisci,
@@ -348,11 +421,11 @@
             </div>
 
         </div>
-        
+
     </div>
 
     </div>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

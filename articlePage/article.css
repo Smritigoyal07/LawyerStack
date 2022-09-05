@@ -2,13 +2,13 @@
     font-family: "font";
     src: url("../font/fonts.ttf");
 }
-.Mainarticles{
+.Mainaarticles{
     display: flex;
     flex-wrap: wrap;
     width:93vw;
     margin: 3vw auto;
 }
-.article{
+.aarticle{
     font-family: font;
     width:28.5vw;
     margin:3vw auto;
@@ -26,7 +26,7 @@
     font-weight: bold;
 }
 
-.article img{
+.aarticle img{
     height: 15vw;
     /* width: 16vw; */
     border-radius: 2vw;
@@ -52,7 +52,7 @@
     background: linear-gradient(90deg, transparent , white) ;
 }
 
-.article button{
+.aarticle button{
     /* padding: 0.6vw 1.9vw; */
     background:linear-gradient(45deg ,grey 20%, rgba(0, 0, 0, 0.823) 80%);
     box-shadow:  0px 0px 22px 0px rgb(122 119 119);
@@ -73,12 +73,12 @@
     font-size: 1.1vw;
     display: flex;
 }
-.division{
+.divvision{
     display: flex;
     margin: 0vw 2vw;
 
 }
-.division p{
+.divvision p{
     padding: 1vw 1.4vw;
     font-size: 1.03vw;
     margin-bottom: 0;
@@ -89,7 +89,7 @@
     margin: -1vw 2vw 0vw 2vw;
 }
 
-.division img{
+.divvision img{
     margin: auto;
 }
 .btn-close{
@@ -97,13 +97,13 @@
 }
 
 @media screen and (max-width: 850px){
-    .article{
+    .aarticle{
         width:40vw;
     }
     .ArtHeading{
         font-size: 3vw;
     }
-    .article img{
+    .aarticle img{
         height: 23vw;
     }
     .content{
@@ -117,7 +117,7 @@
     .tohide::after{ 
         height: 2.3vw;
     }
-    .article button{
+    .aarticle button{
         height: 5vw;
         width: 16vw;
         font-size:2.2vw;
@@ -126,10 +126,10 @@
     .bySome{
         font-size: 1.8vw;
     }
-    .division{
+    .divvision{
         flex-direction: column;
     }
-    .division p{
+    .divvision p{
         font-size: 1.5vw;
     }
     .npara{
@@ -137,13 +137,13 @@
     }
 }
 @media screen and (max-width: 550px){
-    .division p{
+    .divvision p{
         font-size: 2.7vw;
     }
     .npara{
         font-size: 2.7vw;
     }
-    .division img{
+    .divvision img{
         margin-top: 2vw;
     }
     .bySome{
