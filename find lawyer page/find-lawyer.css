@@ -3,7 +3,7 @@
   src: url("../font/fonts.ttf");
 }
 
-* {
+*{
   font-family: font;
 }
 
@@ -11,6 +11,7 @@ body {
   margin: 0%;
   padding: 0%;
   color: white;
+  width:100%;
 }
 
 #heading {
@@ -19,11 +20,10 @@ body {
 
 .banner {
   background-color: rgb(130, 216, 230);
-  width: 95vw;
+  width:94%;
   padding: 3%;
   text-align: center;
   height: 50vh;
-
 }
 
 .container {
@@ -126,16 +126,24 @@ input:hover {
 .doc {
   display: flex;
   padding: 3%;
-  width: 60vw;
+  width: 70%;
   color: black;
   box-shadow: grey 2px 2px 3px 3px;
   margin: auto;
   margin-top: 3%;
   margin-bottom: 3%;
+  /* background-color:chartreuse; */
+  
+}
+
+.square{
+  /* border: 2px solid black; */
+  width:30%;
 }
 
 .doc div {
   margin: auto;
+  
 }
 
 .doc img {
@@ -234,4 +242,12 @@ a {
 
 .booking-btn:hover {
   background-color: #65d8fb;
+}
+
+@media screen and (max-width: 940px) {
+  .container{
+    background-color: cornflowerblue;
+    width:80vw;
+    margin-right:14%;
+  }
 }
