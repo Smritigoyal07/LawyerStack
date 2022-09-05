@@ -19,14 +19,8 @@ body {
   margin: 4%;
 }
 
-<<<<<<< HEAD
-.banner {
-  background-color: rgb(130, 216, 230);
-  width:94%;
-=======
 .bannner {
   background: linear-gradient(65deg, skyblue,black);
->>>>>>> a1fa33921992b141440184e7d99dd26a1b9defaa
   padding: 3%;
   text-align: center;
   height: 50vh;
@@ -155,12 +149,7 @@ input:hover {
 }
 
 .doc div {
-<<<<<<< HEAD
-  margin: auto;
-  
-=======
   margin: auto 2%;
->>>>>>> a1fa33921992b141440184e7d99dd26a1b9defaa
 }
 
 .doc img {
