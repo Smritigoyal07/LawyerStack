@@ -243,11 +243,3 @@ a {
 .booking-btn:hover {
   background-color: #65d8fb;
 }
-
-@media screen and (max-width: 940px) {
-  .container{
-    background-color: cornflowerblue;
-    width:80vw;
-    margin-right:14%;
-  }
-}
