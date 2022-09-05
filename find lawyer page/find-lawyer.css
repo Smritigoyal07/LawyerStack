@@ -14,12 +14,12 @@ body {
 }
 
 #heading {
+  font-size: 3vw;
   margin: 4%;
 }
 
 .banner {
-  background-color: rgb(130, 216, 230);
-  width: 95vw;
+  background: linear-gradient(65deg, skyblue,black);
   padding: 3%;
   text-align: center;
   height: 50vh;
@@ -29,12 +29,18 @@ body {
 .container {
   display: flex;
   text-align: center;
-  width:60vw;
+  justify-content: space-evenly;
+  width:65vw ;
   margin:auto;
 }
 
-.locality,
-.keyword{
+.container input{
+  margin: 3px auto;
+}
+.searcharea{
+  display: flex;
+}
+.locality, .keyword{
   margin: auto;
   border: black 2px solid;
   background-color: white;
@@ -80,6 +86,7 @@ body {
 input {
   border: white;
   height: 5vh;
+  outline: none;
   font-size: medium;
 }
 
@@ -135,7 +142,7 @@ input:hover {
 }
 
 .doc div {
-  margin: auto;
+  margin: auto 2%;
 }
 
 .doc img {
@@ -234,4 +241,20 @@ a {
 
 .booking-btn:hover {
   background-color: #65d8fb;
+}
+.availability{
+  width: 16vw;
+}
+
+@media screen and (max-width : 850px){
+  .container {
+    flex-direction: column;
+  }
+  .locality {
+    width: 30vw;
+  }
+  
+  .keyword  {
+    width: 40vw;
+  }
 }
