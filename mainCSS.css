@@ -96,6 +96,7 @@ li a{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 24vw;
     margin: 0.12vw 0.12vw 0.12vw 0.12vw;
+    margin-top: 0%;
   }
   
   #logo2:hover {
@@ -105,10 +106,12 @@ li a{
   .logo h6{
     font-size: 0.7vw;
     margin-top: -0.3vw;
+    margin-top: .5%;
   }
 
   .logo{
     text-align: center;
+    margin-top: -.5%;
   }
 
 /* banner */

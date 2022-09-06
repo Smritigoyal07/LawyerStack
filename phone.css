@@ -134,6 +134,10 @@ navbar{
   color: #0e2431;
 }
 
+.logo h6{
+  margin:1%;
+}
+
 .navv-contaiiner input[type="checkbox"]:checked ~ .menu-items {
   transform: translateX(0);
 }
