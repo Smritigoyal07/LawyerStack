@@ -1111,6 +1111,89 @@ h3{
     } 
 }
 
+
+
+/* about us page  */
+
+
+
+.ourMission{
+  margin: 110px auto 0vw auto;
+  width: 70vw;
+  text-align: center;
+}
+.ourMission h1{
+  margin: 2vw;
+  font-size: 2.7vw;
+}
+.preHab{
+  background: rgba(128, 128, 128, 0.595);
+  display: flex;
+  align-items: center;
+  margin: 2.5vw 0vw;
+}
+.texxt{
+  padding: 0vw 7vw;
+}
+.texxt h1{
+  font-size: 2.7vw;
+  margin: 0vw 0vw 2vw 0vw;
+}
+.preHab img{
+  width: 40vw;
+  height: 25vw;
+}
+.offer{
+  width: 80vw;
+  margin: 3vw auto;
+}
+.offer h1{
+  font-size: 2.7vw;
+  margin: 0vw 0vw 0vw -2vw;
+}
+.offer li{
+  list-style: none;
+  font-weight: 100;
+}
+.offer li:hover{
+  transform: none;
+}
+.appro{
+  width: 64vw;
+  margin: 4vw auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.appro h1{
+  font-size: 2.7vw;
+  margin: 2vw auto;
+}
+.small{
+  margin: 2vw;
+  display: flex;
+  justify-content: space-between;
+}
+.smallbox{
+  width: 16vw;
+  height: 20vw;
+  border:2px solid #14bef0;
+  font-size: 0.9vw;
+}
+.smallbox h3{
+  font-size: 2.5vw;
+}
+.datapriv{
+  text-align: center;
+  width: 70vw;
+  margin: 6vw auto;
+}
+.datapriv h1{
+  font-size: 2.7vw;
+}
+
+
+
 /* footer page */
 
 .footer{
