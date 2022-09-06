@@ -528,7 +528,10 @@ h3{
     text-decoration: none;
     margin: 1px auto;
 }
-.btn, .bttn {
+.link:hover{
+  transform: none !important;
+}
+.btttn, .bttn {
     margin-top: 9vw;
     display: flex;
     flex-direction: column;
@@ -545,7 +548,7 @@ h3{
      margin-bottom: -1.7vw !important;
      /* scrollbar-color: red yellow; */
 }
-.btn a, .bttn a{
+.btttn a, .bttn a{
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -569,6 +572,7 @@ h3{
          font-weight: bold;
          background: white;
          color: black;
+         transform: scale(1) !important;
          transition: all 0.4s;
 }
 
@@ -585,34 +589,38 @@ h3{
 .headlogin{
     margin-top: 2vw;
 }
-.btn , .bttn{
+.btttn , .bttn{
     padding: 1vw 4vw;
     margin-top: 0vw;
 }
-.btn p, .bttn p{
+.btttn p, .bttn p{
     text-align: left;
     margin-bottom: 0;
 }
-.btn input, .bttn input, .bttn select, .btn select{
+.btttn input, .bttn input, .bttn select, .btttn select{
     font-family: font;
     padding: 0.3vw 1vw;
     border: none;
     border-radius: 2rem;
 }
-.btn spam, .bttn spam{
+.btttn spam, .bttn spam{
     font-size: 0.7rem;
 }
 #choose_File{
     width: 10vw;
     font-size: 0.7rem;
 }
-.btn div, .bttn div{
+.btttn div, .bttn div{
     display: flex;
     justify-content: space-evenly;
 }
 
 #Register{
     margin-top: 1.6vw;
+}
+
+.btttn a:hover{
+  transform: scale(1) !important;
 }
 @media screen and (max-width: 1200px){
     .headlogin{
@@ -758,7 +766,7 @@ h3{
     color: grey;
   }
   
-  a:hover {
+  .popular-searches a:hover {
     scale: 1.1;
     color: rgb(79, 76, 76);
   }
