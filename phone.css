@@ -10,6 +10,7 @@
 .nav{
     display: none;
 }
+
 navbar{
     position: fixed;
     width: 100vw;
@@ -21,12 +22,14 @@ navbar{
   max-width: 1050px;
   width: 100%;
   margin: auto;
+  
 }
 
 .navbarr {
   width: 100%;
   background: skyblue;
   box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+  
 }
 
 .navv-contaiiner {
@@ -252,4 +255,44 @@ h3{
 
 .article h5{
   font-size: 2.5vw !important;
+}
+
+body{
+  padding-top:7%;
+}
+
+@media screen and (max-width: 500px) {
+  .footer__title{
+    font-size:14px;
+    font-weight: bolder;
+  }
+
+  body{
+    padding-top:9%;
+  }
+
+  .logo h6{
+    font-size: 2.5vw;
+  }
+  #logo2 {
+    width: 9vw;
+    height: 9vw;
+    margin: 0.12vw 0.12vw 0.12vw 0.12vw;
+  }
+
+  .corp{
+    margin-bottom:5%;
+  }
+}
+
+@media screen and (max-height: 640px) {
+  .footer{
+    height:46vh;
+  }
+}
+
+@media screen and (max-height: 380px) {
+  .footer{
+    height:60vh;
+  }
 }

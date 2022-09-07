@@ -924,12 +924,12 @@ h3{
 
 
   .corp{
-
     text-align: left;
     margin: 11vh auto 0vw auto;
     width: 40vw;
-    background-color: azure;
     min-width: 300px;
+    margin-bottom: 2%;
+    margin-top: 7%;
   }
   
   .formm {
@@ -1208,19 +1208,18 @@ h3{
 /* footer page */
 
 .footer{
-  background-color:rgb(104, 103, 103);
-  color:white;
+  color:black;
   height:40vh;
   text-align: center;
   padding:1%;
-  padding-bottom: 2%;
+  background-color: skyblue;
 }
 
 .footer a{
-  color:white;
+  color:black;
 }
 
-.footer .logo img {
+.footer .flogo img {
   border-radius: 20px;
   width: 80px;
   height:80px;
@@ -1230,7 +1229,7 @@ h3{
   display:flex;
   margin:2%;
   text-align: left;
-  margin-bottom:4%;
+  /* margin-bottom:4%; */
   justify-content: space-evenly;
 }
 
@@ -1252,6 +1251,7 @@ h3{
   width:20%;
 }
 
-.center-it{
-  text-align:center;
+.cc{
+  font-size:18px;
+  font-weight:bold;
 }
