@@ -105,8 +105,10 @@ li a{
 
   .logo h6{
     font-size: 0.7vw;
-    margin-top: -0.3vw;
+    /* margin-top: -0.3vw; */
     margin-top: .5%;
+    font-weight: bold;
+    /* margin: 1vw 1vw 1vw 1vw ; */
   }
 
   .logo{
@@ -1201,8 +1203,62 @@ h3{
 }
 .datapriv h1{
   font-size: 2.7vw;
+  margin: 4vw auto;
 }
 
+@media screen and (max-width: 1200px){
+  .abouttus h1{
+    font-size: 3vw !important;
+  }
+  .abouttus p{
+    font-size: 1.6vw;
+  }
+  .offer {
+    font-size: 1.6vw;
+  }
+  .offer li{
+    font-size: 1.6vw;
+  }
+}
+@media screen and (max-width: 550px){
+  .abouttus h1{
+    font-size: 8vw !important;
+  }
+  .abouttus p{
+    font-size: 4vw;
+  }
+  .preHab{
+    margin: 7vw auto;
+    flex-direction: column;
+  }
+  .texxt{
+    padding: 5vw 2vw;
+  }
+  .preHab img{
+    padding: 3vw;
+    height: 44vw;
+    width: 95vw;
+  }
+  .offer {
+    font-size: 4vw;
+  }
+  .offer li{
+    font-size: 4vw;
+  }
+  .small{
+    flex-direction: column;
+    margin: 4vw auto;
+  }
+  .smallbox{
+    margin: 2vw;
+    width: 50vw;
+    height: 40vw;
+    font-size: 3vw;
+  }
+  .smallbox h3{
+    font-size: 5vw;
+  }
+}
 
 
 /* footer page */
