@@ -1,5 +1,5 @@
 *{
-    transition: all 0.3s;
+    /* transition: all 0.3s; */
     margin: 0;
     top: 0;
 }
@@ -54,22 +54,24 @@ h1{
    padding: 0.6vw 1vw 0.6vw 5.5vw;
    width: 100vw;
    position: fixed;
-   z-index: 4;
+   z-index: 15;
 }
 navbar{
     display: none;
+    z-index: 14;
 }
 .nav-right,.nav-left{
    margin-top: auto;
    display: flex;
    list-style: none;
-  
+   z-index: 15; 
 }
 
 .nav-elements{
     width: 82.5vw;
     display: flex;
     justify-content: space-between;
+    z-index: 15;
 }
 li{
     padding: 1.2vw 1vw;
@@ -574,11 +576,11 @@ h3{
 }
 
 #Client:hover,#Register:hover, #Lawyer:hover, #Login:hover{
-         font-weight: bold;
-         background: white;
-         color: black;
+         font-weight: bold !important;
+         background: white !important;
+         color: black !important;
          transform: scale(1) !important;
-         transition: all 0.4s;
+         transition: all 0.4s !important;
 }
 
 .layer{
@@ -621,7 +623,9 @@ h3{
 }
 
 #Register{
-    margin-top: 1.6vw;
+  margin-top: 1.6vw;
+    /* margin: 1.6vw auto 0.2vw auto; */
+    /* width: 80%; */
 }
 
 .btttn a:hover{
@@ -711,22 +715,26 @@ h3{
   }
   
   .btn{  
-    padding-top:2.5%;  
+    display: flex;
+    flex-direction: column;
+    padding-top:2.5%; 
+    width: 70%;
+    margin: auto;
   }
   
   .btn button{
-    width:7vw;
+    /* width:7vw; */
     height: 5vh;
     font-size:large;
     background-color: white;
     border-radius: 10px;
   }
   
-  .btn button:hover{
+  /* .btn button:hover{
     background-color:lightgrey;
     scale:1.1;
     font-size:larger;
-  }
+  } */
   
   .locality {
     margin-right: 0%;
