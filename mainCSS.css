@@ -458,11 +458,11 @@ h5 {
   padding-right: 4%;
 }
 
-.heading {
-  font-size: larger;
+.headingg {
+  font-size: x-large;
   text-transform: uppercase;
-  color: rgb(22, 185, 235);
   color: black;
+  font-size: 20px;
 }
 
 .liist li {
@@ -1419,4 +1419,36 @@ a {
 
 .col-sm-10 {
   text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    width: 90vw;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .aside1 {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .top {
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5%;
+  }
+
+  .info {
+    width: 90%;
+    margin: auto;
+  }
+
+  .liist li {
+    font-size: 13px;
+  }
 }
