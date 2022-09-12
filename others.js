@@ -1,11 +1,23 @@
-//  $('.card-slider').slick({
-//     infinite: true,
-//     slidesToShow: 3,
-//     slidesToScroll: 3
-//   });
-  $('.card-slider').slick({
-    
-  })
+jQuery('.card-slider').slick({
+    slidesToShow:3,
+    autoplay: true,
+    slidesToScroll:1,
+    dots: false,
+    responsive:[
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
   
   let cards = document.querySelectorAll('.card');
   let card;
