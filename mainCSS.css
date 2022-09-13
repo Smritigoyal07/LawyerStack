@@ -49,36 +49,37 @@ h1 {
 
 /* nav bar */
 
-.nav{
-    height:4.5vw;
-    display: flex;
-    background-color: skyblue;
-   padding: 0.6vw 1vw 0.6vw 5.5vw;
-   width: 100vw;
-   position: fixed;
-   z-index: 15;
+.nav {
+  height: 4.5vw;
+  display: flex;
+  background-color: skyblue;
+  padding: 0.6vw 1vw 0.6vw 5.5vw;
+  width: 100vw;
+  position: fixed;
+  z-index: 15;
 }
-navbar{
-    display: none;
-    z-index: 14;
+navbar {
+  display: none;
+  z-index: 14;
 }
-.nav-right,.nav-left{
-   margin-top: auto;
-   display: flex;
-   list-style: none;
-   z-index: 15; 
+.nav-right,
+.nav-left {
+  margin-top: auto;
+  display: flex;
+  list-style: none;
+  z-index: 15;
 }
 
-.nav-elements{
-    width: 82.5vw;
-    display: flex;
-    justify-content: space-between;
-    z-index: 15;
+.nav-elements {
+  width: 82.5vw;
+  display: flex;
+  justify-content: space-between;
+  z-index: 15;
 }
-li{
-    padding: 1.2vw 1vw;
-    font-size: 1.16vw;
-    font-weight: bold;
+li {
+  padding: 1.2vw 1vw;
+  font-size: 1.16vw;
+  font-weight: bold;
 }
 
 .nav-right,
@@ -579,12 +580,15 @@ h5 {
   /* scrollbar-color: red yellow; */
 }
 
-#Client:hover,#Register:hover, #Lawyer:hover, #Login:hover{
-         font-weight: bold !important;
-         background: white !important;
-         color: black !important;
-         transform: scale(1) !important;
-         transition: all 0.4s !important;
+#Client:hover,
+#Register:hover,
+#Lawyer:hover,
+#Login:hover {
+  font-weight: bold !important;
+  background: white !important;
+  color: black !important;
+  transform: scale(1) !important;
+  transition: all 0.4s !important;
 }
 
 #Client,
@@ -601,10 +605,10 @@ h5 {
   background: linear-gradient(45deg, grey 20%, rgba(0, 0, 0, 0.823) 80%);
 }
 
-#Register{
+#Register {
   margin-top: 1.6vw;
-    /* margin: 1.6vw auto 0.2vw auto; */
-    /* width: 80%; */
+  /* margin: 1.6vw auto 0.2vw auto; */
+  /* width: 80%; */
 }
 
 #Client:hover,
@@ -971,160 +975,18 @@ a {
   width: 16vw;
 }
 
-@media screen and (max-width : 850px){
+@media screen and (max-width: 850px) {
   .searcharea input {
     font-size: 1.7vw;
   }
-  
+
   .bn button {
     width: 10vw;
     font-size: 2vw;
-    }
-    .container {
-      flex-direction: column;
-    }
-    .locality {
-      width: 30vw;
-    }
-    
-    .keyword  {
-      width: 40vw;
-    }
-    .doc{
-      width: 90vw;
-      font-size: 2vw;
-    }
-    .booking-btn{
-      font-size: 1.3vw;
-    }
-    #heading{
-      font-size: 4vw;
-    }
-    #sub-heading h3{
-      font-size: 3vw;
-    }
   }
-  @media screen and (max-width: 600px) {
-    .bannner{
-        margin-top: 2vw;
-    }
-    .searcharea{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
-    .locality , .keyword{
-      margin:1vw auto;
-      width: 80% !important;
-      border-radius: 2vw;
-    }
-    .searcharea input {
-      width: 80%;
-      font-size: 2.5vw;
-    }
-    .bn button {
-      width: 25vw;
-      font-size: 2.5vw;
-      }
-      .info{
-        margin: auto !important;
-      }
-      #heading{
-        font-size: 6.5vw;
-      }
-      #sub-heading h3{
-        font-size: 3.5vw;
-      }
-    .doc{
-      display: flex;
-      flex-direction: column;
-      width: 80vw;
-      font-size: 3vw;
-      text-align: center;
-    }
-    .ddd{
-    height: 45vw;
-    }
-    .availability{
-      margin: auto !important;
-      width: 60vw;
-    }
-    .profile-photo img{
-      height: 30vw;
-      width: 30vw;
-    }
-    .booking-btn{
-      width: 50vw;
-      height: 6vw;
-      font-size: 2vw;
-    }
-  }
-  
-  
-
-
-  /* corporate page  */
-
-
-
-  .corp{
-    text-align: left;
-    margin: 11vh auto 0vw auto;
-    width: 40vw;
-    min-width: 300px;
-    margin-bottom: 2%;
-    margin-top: 7%;
-  }
-  
-  .formm {
-    padding: 4%;
-    box-shadow: grey 2px 2px 3px 3px;
-    background-color: white;
-    margin-top: 10%;
-    color: rgb(1, 109, 251);
-  }
-  
-  .star {
-    color: red;
-  }
-  
-  .formfill {
-    text-transform: capitalize;
-    margin-top: 7%;
-  }
-  
-  @media screen and (max-width: 1000px) {
-    .corp {
-      width: 70vw;
-    }
-  }
-  
-  @media screen and (max-width: 500px) {
-    .corp {
-      width: 90vw;
-    }
-  }
-
-
-  /* article page  */
-
-
-
-
-  .Mainaarticles{
-    display: flex;
-    flex-wrap: wrap;
-    width:93vw;
-    margin: 10vh auto;
-}
-.aarticle{
-    font-family: font;
-    width:28.5vw;
-    margin:3vw auto;
-    display: flex;
+  .container {
     flex-direction: column;
   }
-
   .locality {
     width: 30vw;
   }
@@ -1132,7 +994,140 @@ a {
   .keyword {
     width: 40vw;
   }
+  .doc {
+    width: 90vw;
+    font-size: 2vw;
+  }
+  .booking-btn {
+    font-size: 1.3vw;
+  }
+  #heading {
+    font-size: 4vw;
+  }
+  #sub-heading h3 {
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .bannner {
+    margin-top: 2vw;
+  }
+  .searcharea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .locality,
+  .keyword {
+    margin: 1vw auto;
+    width: 80% !important;
+    border-radius: 2vw;
+  }
+  .searcharea input {
+    width: 80%;
+    font-size: 2.5vw;
+  }
+  .bn button {
+    width: 25vw;
+    font-size: 2.5vw;
+  }
+  .info {
+    margin: auto !important;
+  }
+  #heading {
+    font-size: 6.5vw;
+  }
+  #sub-heading h3 {
+    font-size: 3.5vw;
+  }
+  .doc {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    font-size: 3vw;
+    text-align: center;
+  }
+  .ddd {
+    height: 45vw;
+  }
+  .availability {
+    margin: auto !important;
+    width: 60vw;
+  }
+  .profile-photo img {
+    height: 30vw;
+    width: 30vw;
+  }
+  .booking-btn {
+    width: 50vw;
+    height: 6vw;
+    font-size: 2vw;
+  }
+}
 
+/* corporate page  */
+
+.corp {
+  text-align: left;
+  margin: 11vh auto 0vw auto;
+  width: 40vw;
+  min-width: 300px;
+  margin-bottom: 2%;
+  margin-top: 7%;
+}
+
+.formm {
+  padding: 4%;
+  box-shadow: grey 2px 2px 3px 3px;
+  background-color: white;
+  margin-top: 10%;
+  color: rgb(1, 109, 251);
+}
+
+.star {
+  color: red;
+}
+
+.formfill {
+  text-transform: capitalize;
+  margin-top: 7%;
+}
+
+@media screen and (max-width: 1000px) {
+  .corp {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .corp {
+    width: 90vw;
+  }
+}
+
+/* article page  */
+
+.Mainaarticles {
+  display: flex;
+  flex-wrap: wrap;
+  width: 93vw;
+  margin: 10vh auto;
+}
+.aarticle {
+  font-family: font;
+  width: 28.5vw;
+  margin: 3vw auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.locality {
+  width: 30vw;
+}
+
+.keyword {
+  width: 40vw;
+}
 
 /* corporate page  */
 
@@ -1622,4 +1617,12 @@ a {
   .liist li {
     font-size: 13px;
   }
+}
+
+.info-inner {
+  text-align: left;
+}
+
+.piccc {
+  margin-left: 2%;
 }
