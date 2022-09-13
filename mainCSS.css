@@ -52,7 +52,7 @@ h1 {
 .nav {
   height: 4.5vw;
   display: flex;
-  background-color: skyblue;
+  background-color: #929AAB;
   padding: 0.6vw 1vw 0.6vw 5.5vw;
   width: 100vw;
   position: fixed;
@@ -142,7 +142,7 @@ li a {
 /* banner */
 
 .banner {
-  background: linear-gradient(45deg, blue, black);
+  background: linear-gradient(45deg, #b9b8b8, black);
   height: 20vw;
   border-radius: 2vw;
   margin-top: 8vw;
@@ -745,7 +745,7 @@ h5 {
 
 .bannner {
   margin: 6vh auto;
-  background: linear-gradient(65deg, skyblue, black);
+  background: linear-gradient(65deg, #929AAB, black);
   padding: 3%;
   text-align: center;
   height: 50vh;
@@ -1081,7 +1081,7 @@ a {
   box-shadow: grey 2px 2px 3px 3px;
   background-color: white;
   margin-top: 10%;
-  color: rgb(1, 109, 251);
+  color: black;
 }
 
 .star {
@@ -1517,7 +1517,7 @@ a {
   height: 40vh;
   text-align: center;
   padding: 1%;
-  background-color: skyblue;
+  background-color: #43474e;
 }
 
 .footer a {
@@ -1625,4 +1625,81 @@ a {
 
 .piccc {
   margin-left: 2%;
+}
+
+/* new changes  */
+
+.nav{
+  background-color:black;
+  color:white;
+}
+
+.footer{
+  background-color:black;
+  color:#EFEFEF;
+}
+
+.footer a {
+  color: #EFEFEF;
+}
+
+#logo2 {
+  box-shadow:#EFEFEF 2px 2px 10px 2px;
+}
+
+.fimg{
+  box-shadow:#EFEFEF 2px 2px 10px 2px;
+}
+
+body{
+  background-color: #EFEFEF;
+}
+
+.ccard {
+  height: 18vw;
+}
+
+.div1 button {
+  background-color: black;
+}
+
+.div1 button:hover {
+  background-color: rgb(88, 85, 85);
+  color:white;
+}
+
+.formm {
+  color: black;
+}
+
+.ddd button{
+  color:black;
+  font-weight: bolder;
+}
+
+.ddd button:hover{
+  color: darkgray;
+  color:#C0A080;
+}
+
+.name{
+  color:black;
+  font-weight: bolder;
+}
+
+.booking-btn{
+  background-color: black;
+  border:0px black;
+}
+
+.booking-btn:hover{
+  background-color: darkgray;
+}
+
+.aside i {
+  color: black;
+}
+
+.verified {
+  background-color: lightgrey;
 }
