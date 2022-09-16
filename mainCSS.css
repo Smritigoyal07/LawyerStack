@@ -1628,31 +1628,57 @@ a {
 }
 
 /* new changes  */
+.navbarr{
+  /* background-color: black; */
+  background-color: #1f2227 !important;
+}
+.logo h6{
+  color:#EEEEEE  !important;
+}
+.line{
+  background-color: #EEEEEE !important;
+}
+.menu-items li a{
+  color: #EEEEEE !important;
+}
+.menu-items{
+  background: black !important;
+}
 
 .nav{
-  background-color:black;
-  color:white;
+  background-color: black;
+  background-color: #1f2227;
+  color:#EEEEEE;
 }
 
 .footer{
   background-color:black;
-  color:#EFEFEF;
+  background-color: #1f2227;
+  color: #EFEFEF;
+  color:#efefefc8;
 }
 
 .footer a {
   color: #EFEFEF;
+  color:#efefefc8;
 }
 
+.nav-elements li{
+  text-decoration: none;
+     /* color: #F7F7F7 !important; */
+     color:#efefefc8;
+}
 #logo2 {
-  box-shadow:#EFEFEF 2px 2px 10px 2px;
+  margin: 0.6vw 0vw -0.3vw 0vw;
+  /* box-shadow:#EFEFEF 2px 2px 10px 2px; */
 }
 
-.fimg{
+/* .fimg{
   box-shadow:#EFEFEF 2px 2px 10px 2px;
-}
+} */
 
 body{
-  background-color: #EFEFEF;
+  background-color: #31313219 !important;
 }
 
 .ccard {
@@ -1702,4 +1728,62 @@ body{
 
 .verified {
   background-color: lightgrey;
+}
+.bannner {
+  margin: 6vh auto;
+  background: linear-gradient(65deg, #929AAB, #a1a1a1);
+  background-color:#929AAB ;
+  padding: 3%;
+  text-align: center;
+  height: 50vh;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 2vw auto;
+}
+.btn button:hover {
+  scale: 1.0;
+  font-size: none;
+}
+
+.flogin{
+  margin-top: 9vw;
+}
+.flogin button{
+  width: 70% ;
+}
+.verified{
+  background-color: rgba(13, 230, 13, 0.486);
+  border: 2px solid rgb(9, 139, 26);
+}
+.doc{
+  border-radius: 2vw;
+  background-color: white;
+  box-shadow: 0px 0px 22px -2px rgb(122 119 119);
+}
+.profile-photo img{
+  box-shadow: 0px 0px 30px -8px rgb(122 119 119);
+}
+.formm{
+  border-radius: 2vw;
+  /* padding: 2vw; */
+  box-shadow: 0px 0px 22px -2px rgb(122 119 119);
+}
+.aarticle{
+  background-color: white;
+}
+.bannner{
+  margin-top: 1.4vw;
+}
+@media screen and (max-width:850px){
+  #choose_File{
+    width: 20vw !important;
+  }
+}
+@media screen and (max-width:550px){
+  #choose_File{
+    width: 50vw !important;
+  }
 }

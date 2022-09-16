@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 *,
 *::before,
 *::after {
@@ -11,8 +17,7 @@
 .container {
   background: pink;
   padding: 2em;
-  width: 100vw;
-  /* min-height: 100vh; */
+  min-height: 100vh;
   display: flex;
 }
 
@@ -25,21 +30,19 @@
   fill: currentColor;
 }
 
-.blend-image,
-.card__background img {
+.blend-image, .card__background img {
   filter: brightness(250%) grayscale(100%);
   mix-blend-mode: screen;
 }
 
-.center-image,
-.card__background img {
+.center-image, .card__background img {
   width: 100%;
   min-height: 100%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .slick-slide {
@@ -180,38 +183,38 @@
   line-height: 1.5;
 }
 
-[data-modal-state="closed"] .modal-wrapper {
+[data-modal-state=closed] .modal-wrapper {
   pointer-events: none;
 }
-[data-modal-state="closed"] .overlay {
+[data-modal-state=closed] .overlay {
   pointer-events: none;
 }
-[data-modal-state="closed"] .modal {
+[data-modal-state=closed] .modal {
   opacity: 0;
 }
-[data-modal-state="closed"] .overlay {
+[data-modal-state=closed] .overlay {
   opacity: 0;
 }
 
-[data-modal-state="opening"] .modal__header,
-[data-modal-state="opening"] .modal__content,
-[data-modal-state="opening"] .modal__close-button,
-[data-modal-state="closing"] .modal__header,
-[data-modal-state="closing"] .modal__content,
-[data-modal-state="closing"] .modal__close-button {
+[data-modal-state=opening] .modal__header,
+[data-modal-state=opening] .modal__content,
+[data-modal-state=opening] .modal__close-button,
+[data-modal-state=closing] .modal__header,
+[data-modal-state=closing] .modal__content,
+[data-modal-state=closing] .modal__close-button {
   opacity: 0;
 }
 
-[data-modal-state="opening"] .overlay {
+[data-modal-state=opening] .overlay {
   transition: opacity 500ms ease;
 }
 
-[data-modal-state="closing"] .overlay {
+[data-modal-state=closing] .overlay {
   opacity: 0;
   transition: opacity 500ms ease;
 }
 
-[data-modal-state="open"] .modal__header,
-[data-modal-state="open"] .modal__content {
+[data-modal-state=open] .modal__header,
+[data-modal-state=open] .modal__content {
   transition: opacity 450ms;
-} /*# sourceMappingURL=other.css.map */
+}/*# sourceMappingURL=other.css.map */
