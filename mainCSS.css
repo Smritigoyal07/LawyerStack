@@ -1787,3 +1787,48 @@ body{
     width: 50vw !important;
   }
 }
+
+.tnc,.help{
+  margin: auto;
+  width:70vw;
+  margin-top: 7%;
+  text-align: justify;
+  margin-bottom: 2%;
+}
+
+.help{
+  font-size: larger;
+  height: 40vh;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding: auto;
+  text-align: center;
+  box-shadow: #b9b8b8 1px 2px 5px 1px;
+}
+
+.help h1{
+  margin: 1.5%;
+  padding: 2%;
+}
+
+.tnc h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.help a{
+  color: blue;
+}
+
+.contact{
+  
+  width: 60vw;
+  margin: auto;
+  margin-top: 7%;
+  text-align: center;
+}
+
+.contact .formm{
+  text-align: left;
+}
