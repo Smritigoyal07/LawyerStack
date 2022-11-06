@@ -1787,6 +1787,7 @@ body{
     width: 50vw !important;
   }
 }
+<<<<<<< HEAD
 
 .tnc,.help{
   margin: auto;
@@ -1832,3 +1833,28 @@ body{
 .contact .formm{
   text-align: left;
 }
+=======
+.banner img {
+  height: 20vw;
+  border-radius: 2vw;
+  cursor: pointer;
+}
+a {
+  color: white;
+}
+
+.meet{
+  width: 60vw;
+  margin: 15vw auto 10vw auto;
+}
+.link{
+  margin: 1vw 1vw 1vw 1vw;
+  padding: 1vw 1vw 1vw 1vw;
+  border-radius: 10px;
+  width: 20vw;
+  text-align: center;
+  margin:2vw auto -1vw auto;
+  /* display: inline; */
+  background-color: #1f2227;
+}
+>>>>>>> d504c4a32f8a228fadc715db3799f21bcb1b30c2
